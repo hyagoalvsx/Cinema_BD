@@ -24,26 +24,26 @@ INSERT INTO Cliente (nome, email, cpf, telefone) VALUES ('Hyago Alves', 'h.alves
 
 -- Insert de funcionario
 
-INSERT INTO Funcionario (nome, cpf, cargo, data_admissao) VALUES ('Mariana Oliveira', '90000000001', 'Atendente', '2022-01-10');
-INSERT INTO Funcionario (nome, cpf, cargo, data_admissao) VALUES ('João Pereira', '90000000002', 'Gerente', '2021-05-22');
-INSERT INTO Funcionario (nome, cpf, cargo, data_admissao) VALUES ('Lucas Mendes', '90000000003', 'Bilheteiro', '2023-03-15');
-INSERT INTO Funcionario (nome, cpf, cargo, data_admissao) VALUES ('Fernanda Costa', '90000000004', 'Atendente', '2020-11-30');
-INSERT INTO Funcionario (nome, cpf, cargo, data_admissao) VALUES ('Pedro Santos', '90000000005', 'Supervisor', '2022-07-05');
-INSERT INTO Funcionario (nome, cpf, cargo, data_admissao) VALUES ('Rafaela Nunes', '90000000006', 'Limpador', '2023-02-01');
-INSERT INTO Funcionario (nome, cpf, cargo, data_admissao) VALUES ('Tiago Almeida', '90000000007', 'Atendente', '2021-08-12');
-INSERT INTO Funcionario (nome, cpf, cargo, data_admissao) VALUES ('Juliana Rocha', '90000000008', 'Bilheteiro', '2019-09-18');
-INSERT INTO Funcionario (nome, cpf, cargo, data_admissao) VALUES ('Carolina Dias', '90000000009', 'Gerente', '2020-05-09');
-INSERT INTO Funcionario (nome, cpf, cargo, data_admissao) VALUES ('Marcelo Ferreira', '90000000010', 'Supervisor', '2022-10-17');
-INSERT INTO Funcionario (nome, cpf, cargo, data_admissao) VALUES ('André Barbosa', '90000000011', 'Atendente', '2021-03-04');
-INSERT INTO Funcionario (nome, cpf, cargo, data_admissao) VALUES ('Paula Farias', '90000000012', 'Bilheteiro', '2023-06-21');
-INSERT INTO Funcionario (nome, cpf, cargo, data_admissao) VALUES ('Ricardo Lima', '90000000013', 'Limpador', '2020-12-14');
-INSERT INTO Funcionario (nome, cpf, cargo, data_admissao) VALUES ('Gabriela Sousa', '90000000014', 'Atendente', '2022-04-03');
-INSERT INTO Funcionario (nome, cpf, cargo, data_admissao) VALUES ('Eduardo Pinto', '90000000015', 'Supervisor', '2021-01-27');
-INSERT INTO Funcionario (nome, cpf, cargo, data_admissao) VALUES ('Bianca Duarte', '90000000016', 'Gerente', '2019-07-07');
-INSERT INTO Funcionario (nome, cpf, cargo, data_admissao) VALUES ('Fábio Moreira', '90000000017', 'Bilheteiro', '2023-09-10');
-INSERT INTO Funcionario (nome, cpf, cargo, data_admissao) VALUES ('Sara Martins', '90000000018', 'Atendente', '2020-02-16');
-INSERT INTO Funcionario (nome, cpf, cargo, data_admissao) VALUES ('Vinícius Souza', '90000000019', 'Limpador', '2021-12-23');
-INSERT INTO Funcionario (nome, cpf, cargo, data_admissao) VALUES ('Letícia Carvalho', '90000000020', 'Atendente', '2022-08-29');
+INSERT INTO Funcionario (nome, cpf, cargo, data_admissao, salario) VALUES ('Mariana Oliveira', '90000000001', 'Atendente', '2022-01-10', 1800.00);
+INSERT INTO Funcionario (nome, cpf, cargo, data_admissao, salario) VALUES ('João Pereira', '90000000002', 'Gerente', '2021-05-22', 4500.00);
+INSERT INTO Funcionario (nome, cpf, cargo, data_admissao, salario) VALUES ('Lucas Mendes', '90000000003', 'Bilheteiro', '2023-03-15', 1700.00);
+INSERT INTO Funcionario (nome, cpf, cargo, data_admissao, salario) VALUES ('Fernanda Costa', '90000000004', 'Atendente', '2020-11-30', 1800.00);
+INSERT INTO Funcionario (nome, cpf, cargo, data_admissao, salario) VALUES ('Pedro Santos', '90000000005', 'Supervisor', '2022-07-05', 3000.00);
+INSERT INTO Funcionario (nome, cpf, cargo, data_admissao, salario) VALUES ('Rafaela Nunes', '90000000006', 'Limpador', '2023-02-01', 1500.00);
+INSERT INTO Funcionario (nome, cpf, cargo, data_admissao, salario) VALUES ('Tiago Almeida', '90000000007', 'Atendente', '2021-08-12', 1800.00);
+INSERT INTO Funcionario (nome, cpf, cargo, data_admissao, salario) VALUES ('Juliana Rocha', '90000000008', 'Bilheteiro', '2019-09-18', 1700.00);
+INSERT INTO Funcionario (nome, cpf, cargo, data_admissao, salario) VALUES ('Carolina Dias', '90000000009', 'Gerente', '2020-05-09', 4500.00);
+INSERT INTO Funcionario (nome, cpf, cargo, data_admissao, salario) VALUES ('Marcelo Ferreira', '90000000010', 'Supervisor', '2022-10-17', 3000.00);
+INSERT INTO Funcionario (nome, cpf, cargo, data_admissao, salario) VALUES ('André Barbosa', '90000000011', 'Atendente', '2021-03-04', 1800.00);
+INSERT INTO Funcionario (nome, cpf, cargo, data_admissao, salario) VALUES ('Paula Farias', '90000000012', 'Bilheteiro', '2023-06-21', 1700.00);
+INSERT INTO Funcionario (nome, cpf, cargo, data_admissao, salario) VALUES ('Ricardo Lima', '90000000013', 'Limpador', '2020-12-14', 1500.00);
+INSERT INTO Funcionario (nome, cpf, cargo, data_admissao, salario) VALUES ('Gabriela Sousa', '90000000014', 'Atendente', '2022-04-03', 1800.00);
+INSERT INTO Funcionario (nome, cpf, cargo, data_admissao, salario) VALUES ('Eduardo Pinto', '90000000015', 'Supervisor', '2021-01-27', 3000.00);
+INSERT INTO Funcionario (nome, cpf, cargo, data_admissao, salario) VALUES ('Bianca Duarte', '90000000016', 'Gerente', '2019-07-07', 4500.00);
+INSERT INTO Funcionario (nome, cpf, cargo, data_admissao, salario) VALUES ('Fábio Moreira', '90000000017', 'Bilheteiro', '2023-09-10', 1700.00);
+INSERT INTO Funcionario (nome, cpf, cargo, data_admissao, salario) VALUES ('Sara Martins', '90000000018', 'Atendente', '2020-02-16', 1800.00);
+INSERT INTO Funcionario (nome, cpf, cargo, data_admissao, salario) VALUES ('Vinícius Souza', '90000000019', 'Limpador', '2021-12-23', 1500.00);
+INSERT INTO Funcionario (nome, cpf, cargo, data_admissao, salario) VALUES ('Letícia Carvalho', '90000000020', 'Atendente', '2022-08-29', 1800.00);
 
 -- Insert de genero
 

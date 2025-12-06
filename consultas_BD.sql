@@ -10,6 +10,8 @@ SELECT * FROM Venda;
 SELECT * FROM Ingresso;
 SELECT * FROM Item_Venda;
 
+delete from funcionario where id_funcionario = 21;
+
 -- Apresentar 5 exemplos de consultas usando junção de tabelas (INNER JOIN, LEFT JOIN, RIGHT JOIN)
 
 -- 1 consulta para mostrar todos os clientes e vendas

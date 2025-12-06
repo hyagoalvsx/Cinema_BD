@@ -15,7 +15,8 @@ id_funcionario int primary key auto_increment,
 nome varchar(100),
 cpf varchar(20)  not null unique,
 cargo varchar(50),
-data_admissao date
+data_admissao date,
+salario decimal (10,2)
 );
 
 create table Genero(
